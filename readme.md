@@ -1,0 +1,17 @@
+# In week 0 we learnt how to install anaconda and how to use jupyter notebook 
+
+# In week 1 we learnt about basics of python and then we moved to some higher stuff like how to make classes and to import directories. Then we studied some basic python modules like math and random. Then we studied file handling in python. 
+
+# In week 2 we studied basics about NumPy and how to create arrays in python. We studied some cool array operations which python can do easily. To create array, we use np.array() function. Also, the operations are faster to perform on arrays rather than using for loops. We can index a NumPy array with: An integer, A slice, A list of integers, Another NumPy array of the same shape with dtype bool, A tuple of NumPy arrays (like in NumPy.where) although this always returns a 'flattened' array. A slice, for each dimension, separated by a comma. axis = 0 represents rows and axis = 1 is columns. Then we studied about the most powerful tool in NumPy that is broadcasting. In this a single operation can be performed on the whole list of numbers. Then we studied git and GitHub. Then we started doing neural networks and learnt the basics about how neurons fire. We learnt about hidden layers and the connections which are used by computers to learn things. We learnt about loss and cost functions and how the basic motive of a programmer is to minimize them by not taking too much CPU time. We talked about sigmoid function and why it is needed to make the output as close to either 1 or 0. Then we learnt how vectorization increases the processing speed. We learnt about linear regression. Then we dropped the sigmoid function and introduced some new activation functions like tanh and max(0,x) which are much better than sigmoid. Sigmoid can be used in the last layer to calculate the final output. 
+
+ 
+ 
+
+# In week 3 we talked about back propagation in large layered neural networks. Then we talked about random initialization of weights so that the hidden units will not be symmetrical also we need the initial values to be small otherwise learning will become slow. Then we moved on to deep neural networks and talked about why we need them. There was an example of image processing in which each layer may refer to edges, color composition and other things to reach the final image. Then we learnt about forward and backward propagation in which we calculate final output and teach the neural network respectively. Then we talked about hyperparameters that determine the final value of parameters. After that we talked about dropout regularization in which we gave each node a probability. Then we talked about exploding and vanishing gradients in which we showed that weights must be closer to 1. Then we talked about weight initialization in which we divide each weight by some variance like 2/n. We divided the batch into mini batches to make computation faster. Mini batch size should be power 2 and it also should fit in CPU memory. We use learning rate decay so that the final answer will be near the minimum. Then we talked about how to select hyperparameters by random searching of points. Then lastly, we started talking about CNN and RNN. 
+
+ 
+ 
+
+ 
+
+ 
